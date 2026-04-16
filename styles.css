@@ -69,7 +69,6 @@ header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 .lang a:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
 
 .clubs{display:grid;grid-template-columns:1fr;gap:22px;padding:20px 0 8px}
-@media(min-width:980px){.clubs{grid-template-columns:1fr 1fr}}
 
 .card{
     background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.02)),var(--card);
